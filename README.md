@@ -190,4 +190,4 @@ Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo `LICENS
 [1] Teloxide: An elegant Telegram bots framework for Rust. Disponible en: [https://github.com/teloxide/teloxide](https://github.com/teloxide/teloxide)
 [2] Twilio: Cloud Communications Platform. Disponible en: [https://www.twilio.com/](https://www.twilio.com/)
 [3] Tauri: Build smaller, faster, and more secure desktop applications with a web frontend. Disponible en: [https://tauri.app/](https://tauri.app/)
-[4] Portable-AI-USB: Portable AI environment on a USB drive. Disponible en: [https://github.com/techjarves/Portable-AI-USB](https://github.com/techjarves/Portable-AI-USB)
+[4] Portable-AI-USB: Portable AI environment on a USB drive. Disponible en: [https://github.com/yoqer/AI-USB](https://github.com/yoqer/IA-USB)
