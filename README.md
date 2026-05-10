@@ -24,6 +24,37 @@ El objetivo principal es ofrecer una solución flexible donde los usuarios pueda
 
 El framework se compone de un **Núcleo del Agente** agnóstico al canal, **Adaptadores de Canal** específicos para cada plataforma, un **Módulo de Ejecución Segura (Harness)** y un **Registro de Herramientas y Habilidades**.
 
+
+```mermaid
+
+graph TD
+    subgraph "Canales de Comunicación"
+        Discord[Discord Adapter] -->|Mensajes| AgentCore
+        Telegram[Telegram Adapter] -->|Mensajes| AgentCore
+        WhatsApp[WhatsApp Adapter] -->|Mensajes| AgentCore
+        SMS[SMS Adapter] -->|Mensajes| AgentCore
+        Email[Email Adapter] -->|Mensajes| AgentCore
+        App[App Móvil/Escritorio Adapter] -->|Mensajes| AgentCore
+    end
+
+    AgentCore[Núcleo del Agente] -->|Comandos OMP| HarnessModule
+    HarnessModule[Módulo de Ejecución Segura Harness] -->|Ejecución de Código| OMP[Oh My Pi]
+    AgentCore -->|Uso de Herramientas| ToolRegistry[Registro de Herramientas y Habilidades]
+    ToolRegistry -->|APIs Externas| ExternalServices[Servicios Externos]
+
+    AgentCore -->|Respuestas| Discord
+    AgentCore -->|Respuestas| Telegram
+    AgentCore -->|Respuestas| WhatsApp
+    AgentCore -->|Respuestas| SMS
+    AgentCore -->|Respuestas| Email
+    AgentCore -->|Respuestas| App
+
+    style AgentCore fill:#f9f,stroke:#333,stroke-width:2px
+    style HarnessModule fill:#ccf,stroke:#333,stroke-width:2px
+    style ToolRegistry fill:#cfc,stroke:#333,stroke-width:2px
+    ```
+
+
 ```mermaid
 graph TD
     SubGraph "Canales de Comunicación"
