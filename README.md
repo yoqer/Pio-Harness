@@ -27,7 +27,7 @@ El framework se compone de un **Núcleo del Agente** agnóstico al canal, **Adap
 ```mermaid
 
 graph TD
-    SubGraph Canales de Comunicación
+    SubGraph "Canales de Comunicación"
         Discord[Discord Adapter] -->|Mensajes| AgentCore
         Telegram[Telegram Adapter] -->|Mensajes| AgentCore
         WhatsApp[WhatsApp Adapter] -->|Mensajes| AgentCore
