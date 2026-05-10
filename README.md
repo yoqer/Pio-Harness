@@ -73,12 +73,12 @@ graph TD
     AgentCore -->|Uso de Herramientas| ToolRegistry[Registro de Herramientas y Habilidades]
     ToolRegistry -->|APIs Externas| ExternalServices[Servicios Externos]
 
-    AgentCore --|> |Respuestas| Discord
-    AgentCore --|> |Respuestas| Telegram
-    AgentCore --|> |Respuestas| WhatsApp
-    AgentCore --|> |Respuestas| SMS
-    AgentCore --|> |Respuestas| Email
-    AgentCore --|> |Respuestas| App
+    AgentCore ==> |Respuestas| Discord
+    AgentCore ==> |Respuestas| Telegram
+    AgentCore ==> |Respuestas| WhatsApp
+    AgentCore ==> |Respuestas| SMS
+    AgentCore ==> |Respuestas| Email
+    AgentCore ==> |Respuestas| App
 
     style AgentCore fill:#f9f,stroke:#333,stroke-width:2px
     style HarnessModule fill:#ccf,stroke:#333,stroke-width:2px
