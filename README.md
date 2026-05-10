@@ -59,14 +59,14 @@ graph TD
 
 ```mermaid
 graph TD
-    SubGraph "Canales de Comunicación"
+    subgraph "Canales de Comunicación"
         Discord[Discord Adapter] -->|Mensajes| AgentCore
         Telegram[Telegram Adapter] -->|Mensajes| AgentCore
         WhatsApp[WhatsApp Adapter] -->|Mensajes| AgentCore
         SMS[SMS Adapter] -->|Mensajes| AgentCore
         Email[Email Adapter] -->|Mensajes| AgentCore
         App[App Móvil/Escritorio Adapter] -->|Mensajes| AgentCore
-    End
+    end
 
     AgentCore[Núcleo del Agente] -->|Comandos OMP| HarnessModule
     HarnessModule[Módulo de Ejecución Segura (Harness)] -->|Ejecución de Código| OMP[Oh My Pi]
@@ -83,6 +83,7 @@ graph TD
     style AgentCore fill:#f9f,stroke:#333,stroke-width:2px
     style HarnessModule fill:#ccf,stroke:#333,stroke-width:2px
     style ToolRegistry fill:#cfc,stroke:#333,stroke-width:2px
+
 ```
 
 ## Configuración y Uso
