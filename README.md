@@ -69,7 +69,8 @@ graph TD
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone https://github.com/yoqer/pio.git # (Este será tu repositorio)
+git clone https://github.com/yoqer/pio.git
+
 cd pio
 ```
 
