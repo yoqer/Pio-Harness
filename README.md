@@ -25,6 +25,7 @@ El objetivo principal es ofrecer una solución flexible donde los usuarios pueda
 El framework se compone de un **Núcleo del Agente** agnóstico al canal, **Adaptadores de Canal** específicos para cada plataforma, un **Módulo de Ejecución Segura (Harness)** y un **Registro de Herramientas y Habilidades**.
 
 ```mermaid
+
 graph TD
     SubGraph Canales de Comunicación
         Discord[Discord Adapter] -->|Mensajes| AgentCore
