@@ -69,7 +69,7 @@ graph TD
     end
 
     AgentCore[Núcleo del Agente] -->|Comandos OMP| HarnessModule
-    HarnessModule[Módulo de Ejecución Segura (Harness)] -->|Ejecución de Código| OMP[Oh My Pi]
+    HarnessModule["Módulo de Ejecución Segura (Harness)"] -->|Ejecución de Código| OMP[Oh My Pi]
     AgentCore -->|Uso de Herramientas| ToolRegistry[Registro de Herramientas y Habilidades]
     ToolRegistry -->|APIs Externas| ExternalServices[Servicios Externos]
 
