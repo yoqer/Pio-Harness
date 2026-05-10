@@ -52,7 +52,9 @@ graph TD
     style AgentCore fill:#f9f,stroke:#333,stroke-width:2px
     style HarnessModule fill:#ccf,stroke:#333,stroke-width:2px
     style ToolRegistry fill:#cfc,stroke:#333,stroke-width:2px
-    ```
+
+```
+
 
 
 ```mermaid
