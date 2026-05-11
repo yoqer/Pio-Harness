@@ -1,5 +1,4 @@
-# Pio 3: Pio, Pio, Pio.
-Framework de Agentes LLM Multicanal
+# Pio 3: Pio, Pio, Pio. 🐣🐥🐤  Agentes LLM Multicanal
 
 ## Introducción
 
