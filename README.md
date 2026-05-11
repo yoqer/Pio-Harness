@@ -184,6 +184,11 @@ Para añadir un nuevo canal de comunicación:
 
 El `Registro de Herramientas y Habilidades` (aún por implementar completamente) permitirá a los agentes acceder a nuevas funcionalidades. Esto se hará extendiendo el `Model Context Protocol (MCP)` para incluir llamadas a funciones personalizadas o APIs externas.
 
+
+#### Nuevas cualidades en avances.
+
+
+
 ## Contribución
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este framework, por favor, abre un *issue* o envía un *pull request*.
