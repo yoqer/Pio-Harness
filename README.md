@@ -185,9 +185,10 @@ Para añadir un nuevo canal de comunicación:
 El `Registro de Herramientas y Habilidades` (aún por implementar completamente) permitirá a los agentes acceder a nuevas funcionalidades. Esto se hará extendiendo el `Model Context Protocol (MCP)` para incluir llamadas a funciones personalizadas o APIs externas.
 
 
-#### [Nuevas cualidades de avances.]  (https://github.com/yoqer/Pio-Harness/blob/main/README_1.md)
-Pio 2. [🐣🐥](https://github.com/yoqer/Pio-Harness/blob/main/README_1.md)
-Pio 3. [🐣🐥🐤](https://github.com/yoqer/Pio-Harness/blob/main/README_2.md)
+#### [Nuevas cualidades de avances.](https://github.com/yoqer/Pio-Harness/blob/main/README_1.md)
+
+#### Pio 2. [🐣🐥](https://github.com/yoqer/Pio-Harness/blob/main/README_1.md)
+#### Pio 3. [🐣🐥🐤](https://github.com/yoqer/Pio-Harness/blob/main/README_2.md)
 
 ## Contribución
 
