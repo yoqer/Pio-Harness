@@ -187,8 +187,8 @@ El `Registro de Herramientas y Habilidades` (aún por implementar completamente)
 
 #### [Nuevas cualidades de avances.](https://github.com/yoqer/Pio-Harness/blob/main/README_1.md)
 
-#### Pio 2. [🐣🐥](https://github.com/yoqer/Pio-Harness/blob/main/README_1.md)
-#### Pio 3. [🐣🐥🐤](https://github.com/yoqer/Pio-Harness/blob/main/README_2.md)
+#### Pio 2. [🐣🐥  Pio, Pio](https://github.com/yoqer/Pio-Harness/blob/main/README_1.md)
+#### Pio 3. [🐣🐥🐤  Pio, Pio, Pio](https://github.com/yoqer/Pio-Harness/blob/main/README_2.md)
 
 ## Contribución
 
