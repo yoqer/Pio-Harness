@@ -59,7 +59,7 @@ La interfaz de chat es limpia y directa. Pio actúa como un puente inteligente q
 ## Referencias
 
 [1] Teloxide: [https://github.com/teloxide/teloxide](https://github.com/teloxide/teloxide)
-[2] Portable-AI-USB: [https://github.com/techjarves/Portable-AI-USB](https://github.com/techjarves/Portable-AI-USB)
+[2] Portable-AI-USB: [https://github.com/yoqer/IA-USB](https://github.com/yoqer/IA-USB)
 [3] OMP Discord Bridge: [https://github.com/ajaxdude/omp-discord-bridge](https://github.com/ajaxdude/omp-discord-bridge)
 
 ## Licencia
