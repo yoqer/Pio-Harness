@@ -1,4 +1,4 @@
-# Pio 3: Pio, Pio, Pio. 🐣🐥🐤  Agentes LLM Multicanal
+# Pio 2: Pio, Pio. 🐣🐥     Agentes LLM Multicanal.
 
 ## Introducción
 
